@@ -9,16 +9,19 @@ html {
   box-sizing: inherit; }
 
 body {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+  background-color: #e4eee8; }
 
 .container {
   display: flex;
   max-width: 960px;
   background-color: #eaeaea;
-  margin: 20px auto; }
+  margin: 20px auto;
+  justify-content: space-between;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1); }
 
 .profile {
-  max-width: 350px;
+  flex-basis: 36.5%;
   background-color: #39383a;
   color: #ababab; }
   .profile__photo {
@@ -104,3 +107,24 @@ body {
     .lines .line:nth-child(2) {
       width: 102px;
       margin-left: 20px; }
+
+.resume {
+  padding: 25px 30px;
+  flex-basis: 61.5%;
+  background-color: #fff; }
+  .resume-wrap {
+    padding: 36px 56px;
+    border: 1px solid rgba(168, 168, 168, 0.44);
+    height: 100%; }
+
+.logo {
+  display: flex;
+  justify-content: center; }
+  .logo__img {
+    width: 90px;
+    height: 90px;
+    border: 1px solid #39383a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
