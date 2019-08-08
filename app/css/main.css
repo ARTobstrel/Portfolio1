@@ -119,7 +119,9 @@ body {
 
 .logo {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 38px; }
   .logo__img {
     width: 90px;
     height: 90px;
@@ -128,3 +130,59 @@ body {
     display: flex;
     justify-content: center;
     align-items: center; }
+  .logo__lines {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 17px;
+    margin-right: 17px; }
+  .logo__line {
+    background-color: #39383A;
+    width: 43px;
+    height: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .logo__lines_left .logo__line:nth-child(1) {
+    margin-left: 20px; }
+  .logo__lines_left .logo__line:nth-child(2) {
+    width: 55px; }
+  .logo__lines_left .logo__line:nth-child(3) {
+    margin-left: 20px; }
+  .logo__lines_right .logo__line:nth-child(2) {
+    margin-left: 10px;
+    width: 55px; }
+
+.about {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 35px; }
+  .about__name {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 10px; }
+  .about__position {
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    font-size: 9px;
+    color: #808080;
+    text-transform: uppercase;
+    margin-bottom: 40px; }
+  .about__address {
+    font-size: 13px;
+    margin-bottom: 15px;
+    font-style: normal; }
+  .about__contacts {
+    font-size: 8px; }
+  .about__links {
+    text-decoration: none;
+    color: #777777; }
+
+.experience {
+  font-family: 'Open Sans SemiBold', sans-serif; }
+  .experience__heading {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 20px 0; }
