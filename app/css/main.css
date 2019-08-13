@@ -249,3 +249,71 @@ body {
     left: 0;
     height: 100%;
     background-color: #898989; }
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 90%; } }
+
+@media screen and (max-width: 992px) {
+  .container {
+    flex-direction: column;
+    width: 70%; }
+  .profile__photo {
+    height: 500px;
+    background-position: center center; }
+  .lines {
+    display: none; } }
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 80%; }
+  .profile__photo {
+    max-height: 300px;
+    border: 3px solid #ffffff;
+    margin: 10px;
+    padding: 0; }
+  .contacts {
+    margin-bottom: 30px; }
+  .resume {
+    padding: 10px; }
+  .about__position {
+    font-size: 14px; }
+  .about__links {
+    display: block;
+    font-size: 12px; }
+  .list-item__title {
+    font-size: 14px; }
+  .list-item__date {
+    font-size: 12px; }
+  .list-item__text {
+    font-size: 12px;
+    line-height: 1.4; }
+  .resume-wrap {
+    padding-left: 20px;
+    padding-right: 20px; } }
+
+@media screen and (max-width: 567px) {
+  .profile__photo {
+    height: 300px; }
+  .logo__img {
+    width: 70px;
+    height: 70px; }
+  .logo__lines {
+    margin-left: 8px;
+    margin-right: 8px; } }
+
+@media screen and (max-width: 480px) {
+  .container {
+    min-width: 320px; }
+  .profile__photo {
+    height: 250px; }
+  .profile__info {
+    padding-top: 20px; }
+  .logo {
+    display: none; }
+  .about__name {
+    letter-spacing: normal; }
+  .skills-list__item {
+    flex-direction: column; }
+  .level {
+    width: 100%; } }
